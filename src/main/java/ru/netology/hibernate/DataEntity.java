@@ -14,7 +14,7 @@ public class DataEntity implements CommandLineRunner {
     @Transactional
     public void run(String... args) throws Exception {
 
-        Person anar = Person.builder().contact(Contact.builder()
+        Person ivan = Person.builder().contact(Contact.builder()
                         .name("Ivan")
                         .surname("Ivanov")
                         .age(26)
@@ -23,7 +23,7 @@ public class DataEntity implements CommandLineRunner {
                 .cityOfLiving("Moscow")
                 .build();
 
-        Person dmitriy = Person.builder().contact(Contact.builder()
+        Person petr = Person.builder().contact(Contact.builder()
                         .name("Petr")
                         .surname("Petrov")
                         .age(37)
@@ -32,7 +32,7 @@ public class DataEntity implements CommandLineRunner {
                 .cityOfLiving("Moscow")
                 .build();
 
-        Person vlad = Person.builder().contact(Contact.builder()
+        Person aleksandr = Person.builder().contact(Contact.builder()
                         .name("Aleksandr")
                         .surname("Sidorov")
                         .age(24)
